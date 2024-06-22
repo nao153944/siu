@@ -1,16 +1,5 @@
-@media screen and (min-width: 767px) {
-body{
-   zoom: 67%;
-}    
-}
-
-@media screen and (max-width: 767px) {
 body{
    zoom: 60%;
-}
-}
-
-body{
    width: auto;
    height: auto;
    background-color: wheat;
@@ -176,8 +165,6 @@ input[type=search]{
 .checkbox{
    width: 25px;
    height: 25px;
-   top: -5px;
-   position: relative;
 }
 
 

@@ -2,11 +2,28 @@
 body{
    zoom: 67%;
 }
+.checkbox{
+   width: 25px;
+   height: 25px;
+   position: relative;
+   top: -10px;
+   vertical-align: middle;
+}    
+    
 }
+
 @media screen and (max-width: 767px) {
 body{
    zoom: 60%;
 }
+.checkbox{
+   width: 25px;
+   height: 25px;
+   position: relative;
+   top: 10px;
+   vertical-align: middle;
+}
+    
 }
 
 body{
@@ -171,14 +188,6 @@ input[type=search]{
     text-align: center;
 }
 
-
-.checkbox{
-   width: 25px;
-   height: 25px;
-   position: relative;
-   top: 10px;
-   vertical-align: middle;
-}
 
 
 .c-button{

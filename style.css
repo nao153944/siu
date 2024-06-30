@@ -162,16 +162,23 @@ input[type=search]{
 }
 
 
+.contentblock{
+    position: relative;
+}
+
 .checkbox{
    width: 25px;
    height: 25px;
+   position: absolute;
+   top: 50%;
+   margin-top: -12px;
 }
-
 
 .c-button{
    width: 400px;
    height: 60px;
    margin: 5px;
+   margin-left: 40px;
    background-color: white;
    overflow: hidden;
    white-space: nowrap;
